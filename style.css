@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.banner {
+    width: 100%;
+    margin: 0 auto;
+    height: 600px;
+   
+}
+
+.text-container {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    text-align: center;
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    
+}
+
+.small-text {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+header {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
