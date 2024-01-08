@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Merriweather&display=swap');
+
 .banner {
     width: 100%;
     margin: 0 auto;
     height: 600px;
-
+    background-image: url(resources/Banner\ Image.png);
+    background-color: #9d9b9d;
+    background-blend-mode: multiply;
+    border-radius: 16px;
 }
 
 .text-container {
@@ -38,32 +43,85 @@ header {
     font-size: 75px;
     font-weight: 700;
 }
-.first p{
+
+.first p {
     color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 24px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
 
 }
-.first h2{
+
+.first h2 {
     color: #070211;
-text-align: center;
-font-family: Inter;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
-.first-contant-title{
+
+.first-contant-title {
     line-height: 80px;
 }
-.first-img{
+
+.first-img {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.first-contant{
+
+.first-contant {
     margin-left: 344px;
     margin-right: 344px;
-    margin-top: 200px; 
+    margin-top: 200px;
+}
+
+.new-year-banner {
+    width: 100%;
+    margin: 0 auto;
+    height: 600px;
+    background-image: url(resources/Vectorrr.png);
+    background-color: #636163;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    max-width: 1300px;
+    border-radius: 16px;
+}
+
+.text-container-n {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 20px;
+    /* padding: 40px; */
+
+    line-height: 88px;
+    letter-spacing: 7.04px;
+
+    /* text-align: center;
+    color: #fff;
+    font-family: 'Merriweather', serif; */
+}
+
+.text-container-m {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    line-height: 30px;
+}
+.taw{
+    margin-top: 40px;
+    margin-left: 30px;
+    max-width: 500px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.taws{
+    color: #FFF;
+text-align: left;
+font-family: Inter;
+font-size: 20px;
+font: bold;
 }
