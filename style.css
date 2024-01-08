@@ -4,7 +4,7 @@
     width: 100%;
     margin: 0 auto;
     height: 600px;
-   
+
 }
 
 .text-container {
@@ -14,7 +14,6 @@
     text-align: center;
     color: #fff;
     font-family: 'Merriweather', serif;
-    
 }
 
 .small-text {
@@ -32,4 +31,39 @@ header {
     margin-right: auto;
 }
 
+.first-contant-title {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 75px;
+    font-weight: 700;
+}
+.first p{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
 
+}
+.first h2{
+    color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.first-contant-title{
+    line-height: 80px;
+}
+.first-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-contant{
+    margin-left: 344px;
+    margin-right: 344px;
+    margin-top: 200px; 
+}
