@@ -374,3 +374,38 @@ header {
 .mail-container1{
     padding: 10px;
 }
+footer{
+    background: #070211;
+}
+.footer-contant{
+    color: #FFF;
+font-family: sans-serif;
+padding: 120px 140px;
+padding-bottom: 85px;
+
+
+}
+.footer-sec1{
+    display: flex;
+    justify-content: space-between;
+}
+.custom-hr{
+    border: 0;
+    height: 1px;
+    background-color: #333;
+    margin: 0 140px;
+}
+.footer-sec2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer-contant1{
+    color: #FFF;
+font-family: sans-serif;
+padding: 50px 140px;
+}
+.footer-sec3{
+    display: flex;
+    justify-content: space-between;
+}
